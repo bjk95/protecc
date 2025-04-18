@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "protecc"
+version = "0.1.0"
+description = ""
+authors = ["bjk95 <bradley.kester@barcelonagse.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.51.3"
+ipykernel = "^6.29.5"
+torch = "^2.6.0"
+datasets = "^3.5.0"
+accelerate = "^1.6.0"
+peft = "^0.15.2"
+trl = "^0.16.1"
+evaluate = "^0.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
