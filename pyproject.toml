@@ -6,7 +6,7 @@ authors = ["bjk95 <bradley.kester@barcelonagse.eu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 transformers = "^4.51.3"
 ipykernel = "^6.29.5"
 torch = "^2.6.0"
@@ -15,6 +15,9 @@ accelerate = "^1.6.0"
 peft = "^0.15.2"
 trl = "^0.16.1"
 evaluate = "^0.4.3"
+bitsandbytes = "^0.45.5"
+scikit-learn = "1.5.1"
+coremltools = "^8.2"
 
 
 [build-system]
